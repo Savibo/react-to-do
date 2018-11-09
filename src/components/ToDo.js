@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+class ToDo extends Component {
 
-      class ToDo extends Component {
+      class ToDo extends Component
         render() {
           return (
             <li>
@@ -10,6 +11,5 @@ import React, { Component } from 'react';
             </li>
           );
         }
-      }
-
-      export default ToDo;
+      
+       export default ToDo;
